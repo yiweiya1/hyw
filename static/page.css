@@ -1,0 +1,52 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.page_box{
+    padding: 5% 7%;
+}
+.page_box .page_title{
+    padding: 10px 0px;
+    border-bottom: 1px solid #eee;
+}
+.page_box .page_content{
+    padding: 10px 0px;
+    border-top: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+}
+.page_box .page_time{
+    font-size: 10px;
+    color: rgb(220,118,97);
+    padding: 10px 0px;
+}
+.page_box .page_classify{
+    padding: 10px 0px;
+   font-size: 10px;
+   color: rgb(220,118,97);
+}
+.commend_box{
+    padding: 0% 7%;
+}
+.commend_box .submit_commend{
+    border: 1px solid #eee;
+    padding: 10px;
+}
+.commend_box .submit_commend .input_commend{
+    height: 30px;
+    width: 100%;
+}
+.commend_box .submit_commend .submit{
+    border: none;
+    background-color: rgb(220,118,97);
+    color: white;
+    padding: 10px;
+    margin-top: 10px;
+}
+.commend_box .commend_list{
+    padding: 10px 0px;
+}
+.commend_box .commend_list .commend_item{
+    list-style:none;
+    display: flex;
+    justify-content: space-between;
+}

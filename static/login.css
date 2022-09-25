@@ -1,0 +1,33 @@
+.login_box{
+    height: 400px;
+    width: 300px;
+    background-color: rgb(220,118,97);
+    border: 1px solid #eee;
+    border-radius: 20px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0px auto;
+}
+.login_box .username{
+    height: 40px;
+    margin: 10px 0px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+}
+.login_box .password{
+    margin: 10px 0px;
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+}
+.login_box .login{
+    margin: 10px 0px;
+    height: 40px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+}
